@@ -206,7 +206,7 @@
       num: "01",
       title: "ChatVTU",
       tagline: "Ask your VTU notes a question and get an exam-ready answer, with the source PDF and its diagrams.",
-      links: [{ label: "View on GitHub", href: "https://github.com/ProblematicPP/vtu-rag-assistant", icon: GITHUB_ICON, primary: true }],
+      links: [{ label: "View on GitHub", href: "https://github.com/aimlwithansh/vtu-rag-assistant", icon: GITHUB_ICON, primary: true }],
       problem:
         "ChatGPT and Claude happily answer beyond the VTU syllabus, and they can't show the diagrams VTU marking expects. ChatVTU answers only from what your notes actually say, links the original PDF at the page it used, and shows the diagrams from that page. It runs entirely on your own machine.",
       flow: [
@@ -256,7 +256,7 @@
       num: "03",
       title: "Esports VOD Auto-Clipper",
       tagline: "Hours of VALORANT VODs in, vertical highlight clips out.",
-      links: [{ label: "View on GitHub", href: "https://github.com/ProblematicPP/AI-E-Sports-Clipper", icon: GITHUB_ICON, primary: true }],
+      links: [{ label: "View on GitHub", href: "https://github.com/aimlwithansh/AI-E-Sports-Clipper", icon: GITHUB_ICON, primary: true }],
       problem:
         "Finding the clip-worthy moments in a multi-hour tournament VOD means scrubbing through footage for hours. This pipeline listens to the casters instead: it finds the hype, cuts it, and formats it for TikTok and Reels.",
       flow: [
@@ -462,7 +462,7 @@
         opacity: 0,
         duration: 1.1,
         ease: "power3.out",
-        scrollTrigger: { trigger: el, start: "top 85%", once: true },
+        scrollTrigger: { trigger: el, start: "top 95%", once: true },
       });
     });
 
@@ -473,7 +473,7 @@
         duration: 1,
         ease: "power3.out",
         stagger: 0.12,
-        scrollTrigger: { trigger: group, start: "top 82%", once: true },
+        scrollTrigger: { trigger: group, start: "top 92%", once: true },
       });
     });
 
