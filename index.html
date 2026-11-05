@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ansh Saini — AI/ML Engineer</title>
+  <meta name="description" content="Ansh Saini — AI/ML undergraduate building agentic RAG systems, LLM pipelines and full-stack apps." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Shippori+Mincho:wght@500;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    if (!matchMedia("(prefers-reduced-motion: reduce)").matches) document.documentElement.classList.add("intro");
+  </script>
+</head>
+<body>
+  <canvas id="petals" aria-hidden="true"></canvas>
+
+  <header class="nav">
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" target="_blank" rel="noopener" class="nav-cta">View Résumé</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <p class="eyebrow hero-fade">AI / ML Engineer · Bengaluru</p>
+        <h1 class="hero-name" aria-label="Ansh Saini"><span>Ansh</span> <span>Saini</span></h1>
+        <p class="hero-tag hero-fade">
+          I build <em>agentic RAG systems</em>, LLM pipelines, and full-stack
+          apps that people actually use.
+        </p>
+        <div class="hero-actions hero-fade">
+          <a href="#projects" class="btn btn-primary">See my work</a>
+          <a href="mailto:ansh210904@gmail.com" class="btn btn-ghost">Get in touch</a>
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <span class="kanji">桜の木</span>
+        <svg class="branch" viewBox="0 0 500 600" fill="none">
+          <g class="branch-lines">
+            <path d="M480 610 C 430 490, 390 430, 300 362 S 160 240, 60 92" />
+            <path class="twig" d="M300 362 C 330 300, 365 268, 422 232" />
+            <path class="twig" d="M205 272 C 180 222, 190 172, 232 130" />
+            <path class="twig" d="M392 440 C 425 415, 452 385, 470 332" />
+            <path class="twig" d="M140 200 C 112 190, 92 165, 86 138" />
+          </g>
+          <g class="blossoms"></g>
+        </svg>
+      </div>
+
+      <a href="#about" class="scroll-hint hero-fade" aria-label="Scroll down">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-num">01</span>
+        <h2>About</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy" data-reveal>
+          <p class="lead">
+            I'm an AI &amp; Machine Learning undergraduate who cares about shipping:
+            taking an idea from a notebook to something real people use.
+          </p>
+          <p>
+            My work sits where ML meets product. I've built retrieval-augmented agents
+            that stay grounded in verified sources, GPU pipelines that turn hours of
+            video into short clips, and a multi-tenant SaaS that runs a college hostel
+            day to day.
+          </p>
+          <p>
+            I'm studying for a B.E. in AI &amp; ML at <strong>AMC Engineering College, Bengaluru</strong>
+            (graduating 2027) with a CGPA of <strong>8.2 / 10</strong>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-num">02</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-line"><span></span></div>
+        <article class="tl-item" data-reveal>
+          <div class="tl-dot"></div>
+          <div class="tl-meta">Oct 2025 — Jan 2026 · Bengaluru</div>
+          <h3>Web Developer &amp; Event Manager</h3>
+          <p class="tl-org">Kaira Weddings &amp; More</p>
+          <ul>
+            <li>Built and maintained <a href="https://kairaweddings.in" target="_blank" rel="noopener">kairaweddings.in</a>, owning delivery from layout through deployment.</li>
+            <li>Brought in new clients through website SEO and social media marketing.</li>
+            <li>Coordinated vendors and clients on-site during live events.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-num">03</span>
+        <h2>Selected Projects</h2>
+      </div>
+
+      <ul class="projects" data-reveal-stagger>
+        <li>
+          <button class="project-row" type="button" data-project="chatvtu" aria-haspopup="dialog">
+            <span class="pr-num">01</span>
+            <span class="pr-main">
+              <span class="pr-title">ChatVTU</span>
+              <span class="pr-sub">Agentic RAG that answers from your VTU notes, with the source page and its diagrams</span>
+            </span>
+            <span class="tags pr-tags"><span>LangGraph</span><span>OpenSearch</span><span>FastAPI</span><span>Airflow</span></span>
+            <span class="pr-arrow" aria-hidden="true">→</span>
+          </button>
+        </li>
+        <li>
+          <button class="project-row" type="button" data-project="doorman" aria-haspopup="dialog">
+            <span class="pr-num">02</span>
+            <span class="pr-main">
+              <span class="pr-title">Doorman</span>
+              <span class="pr-sub">Multi-tenant hostel platform: QR gate passes, leave approvals, mess and occupancy</span>
+            </span>
+            <span class="tags pr-tags"><span>FastAPI</span><span>React</span><span>React Native</span><span>Postgres</span></span>
+            <span class="pr-arrow" aria-hidden="true">→</span>
+          </button>
+        </li>
+        <li>
+          <button class="project-row" type="button" data-project="clipper" aria-haspopup="dialog">
+            <span class="pr-num">03</span>
+            <span class="pr-main">
+              <span class="pr-title">Esports VOD Auto-Clipper</span>
+              <span class="pr-sub">Turns hours of VALORANT footage into vertical highlight clips, automatically</span>
+            </span>
+            <span class="tags pr-tags"><span>faster-whisper</span><span>CUDA</span><span>Gemini</span><span>FFmpeg</span></span>
+            <span class="pr-arrow" aria-hidden="true">→</span>
+          </button>
+        </li>
+      </ul>
+      <p class="projects-hint" data-reveal>Click a project to see how it works.</p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-num">04</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skills" data-reveal-stagger>
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="tags"><li>Python</li><li>JavaScript</li><li>SQL</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Machine Learning &amp; AI</h3>
+          <ul class="tags"><li>PyTorch</li><li>Scikit-learn</li><li>LangGraph</li><li>LangChain</li><li>Agentic RAG</li><li>Model Evaluation</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data &amp; Backend</h3>
+          <ul class="tags"><li>REST APIs</li><li>FastAPI</li><li>ETL</li><li>PostgreSQL</li><li>OpenSearch</li><li>Redis</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; Platforms</h3>
+          <ul class="tags"><li>Git</li><li>GitHub</li><li>Docker</li><li>Airflow</li><li>React</li><li>React Native</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section">
+      <div class="section-head" data-reveal>
+        <span class="section-num">05</span>
+        <h2>Certifications</h2>
+      </div>
+      <div class="cert" data-reveal>
+        <span class="cert-badge">✿</span>
+        <div>
+          <p class="cert-title">NPTEL · Applied Accelerated Artificial Intelligence</p>
+          <p class="cert-sub">Gold Elite, 92 / 100</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+      <p class="eyebrow" data-reveal>06 — Contact</p>
+      <h2 class="contact-title" data-reveal>Let's build something<br /><em>worth blooming.</em></h2>
+      <p class="contact-copy" data-reveal>
+        I'm looking for internships and roles in AI/ML and full-stack engineering.
+        My inbox is always open.
+      </p>
+      <div class="contact-actions" data-reveal>
+        <a href="mailto:ansh210904@gmail.com" class="btn btn-primary">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm-1 1 9 7 9-7"/></svg>
+          ansh210904@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/aimlwithansh" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+          LinkedIn
+        </a>
+        <a href="https://github.com/ProblematicPP" target="_blank" rel="noopener" class="btn btn-ghost">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3"/></svg>
+          GitHub
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Project detail drawer -->
+  <div class="drawer" id="project-drawer" aria-hidden="true">
+    <div class="drawer-backdrop" data-close></div>
+    <div class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
+      <div class="drawer-bar">
+        <span class="pr-num" id="drawer-num"></span>
+        <button class="drawer-close" type="button" data-close aria-label="Close project details">✕</button>
+      </div>
+      <div class="drawer-body"></div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha384-g4NTh/Iv5PPU4xPyhEWqPcwtNXOvdaDI8LLnyYfyNZOjKJeYQyjzQ9X5275eBjpt" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha384-Z3REaz79l2IaAZqJsSABtTbhjgOUYyV3p90XNnAPCSHg3EMTz1fouunq9WZRtj3d" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js" integrity="sha384-/Mc/2ffICYME94wcPOYwoL99IzpbvFsDTty0/5V5t22x2n26tp8JRSsxKjvgZuZs" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
